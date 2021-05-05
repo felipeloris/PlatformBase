@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loris.Entities\Loris.Entities.csproj" />
+    <ProjectReference Include="..\Loris.Common\Loris.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,72 @@
+{
+  "name": "loris.front.react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.25",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "axios": "^0.21.1",
+    "clsx": "^1.1.1",
+    "i18next": "^20.2.1",
+    "lodash": "^4.17.21",
+    "material-ui-flags": "^1.2.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.8.13",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.0.9",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "styled-components": "^5.2.3",
+    "tinycolor2": "^1.4.2",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/recharts": "^1.8.19",
+    "@types/redux-saga": "^0.10.5",
+    "@types/styled-components": "^5.1.9",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:log": "eslint ./src/**/*.{ts,tsx}",
+    "lint:fix": "eslint ./src/**/*.{ts,tsx} --fix --max-warnings 0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

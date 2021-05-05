@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="lbl_out" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="lbl_all" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="lbl_average" xml:space="preserve">
+    <value>Média</value>
+  </data>
+  <data name="lbl_create" xml:space="preserve">
+    <value>Criar</value>
+  </data>
+  <data name="lbl_days" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="lbl_delete" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="lbl_high" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="lbl_hours" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="lbl_low" xml:space="preserve">
+    <value>Baixo</value>
+  </data>
+  <data name="lbl_minutes" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="lbl_no" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="lbl_none" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="lbl_read" xml:space="preserve">
+    <value>Ler</value>
+  </data>
+  <data name="lbl_report" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="lbl_secounds" xml:space="preserve">
+    <value>Segundos</value>
+  </data>
+  <data name="lbl_severe" xml:space="preserve">
+    <value>Severo</value>
+  </data>
+  <data name="lbl_system" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="lbl_undefined" xml:space="preserve">
+    <value>Indefinido</value>
+  </data>
+  <data name="lbl_update" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="lbl_user" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="lbl_yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="lbl_select" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="lbl_insert" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="lbl_close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="lbl_save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="lbl_lang_english" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="lbl_lang_not_informed" xml:space="preserve">
+    <value>Idioma de acesso não foi informado!</value>
+  </data>
+  <data name="lbl_lang_portuguese" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="lbl_lang_spanish" xml:space="preserve">
+    <value>Espanhol</value>
+  </data>
+  <data name="lbl_administration" xml:space="preserve">
+    <value>Administração</value>
+  </data>
+  <data name="msg_config_file_not_informed" xml:space="preserve">
+    <value>Arquivo de configuração não foi informado!</value>
+  </data>
+  <data name="msg_conf_sair_sistema" xml:space="preserve">
+    <value>Deseja realmente sair do sistema?</value>
+  </data>
+  <data name="msg_system_out" xml:space="preserve">
+    <value>Selecione "Logout" abaixo se você estiver pronto para encerrar sua sessão atual.</value>
+  </data>
+  <data name="lbl_field_unique_violation" xml:space="preserve">
+    <value>O campo informado já está em uso!</value>
+  </data>
+  <data name="msg_system_error" xml:space="preserve">
+    <value>Aconteceu um erro no sistema! Informe esse ID para o administrador: {0}</value>
+  </data>
+  <data name="msg_blocked_access" xml:space="preserve">
+    <value>Usuário bloqueado! Solicite o desbloqueio com o administrador.</value>
+  </data>
+  <data name="msg_disabled_access" xml:space="preserve">
+    <value>O acesso ao usuário ao sistema está desabilitado</value>
+  </data>
+  <data name="msg_invalid_login" xml:space="preserve">
+    <value>O login ou a senha digitada está incorreta. Por favor, tente novamente.</value>
+  </data>
+  <data name="msg_login_not_informed" xml:space="preserve">
+    <value>Login do usuário não foi informado!</value>
+  </data>
+  <data name="msg_not_logged" xml:space="preserve">
+    <value>Login do usuário inválido ou vencido. Favor logar novamente!</value>
+  </data>
+  <data name="msg_password_expired" xml:space="preserve">
+    <value>A senha fornecida está expirada!</value>
+  </data>
+  <data name="msg_user_blocked_mult_access" xml:space="preserve">
+    <value>Usuário bloqueado por várias tentativas de acesso</value>
+  </data>
+  <data name="msg_user_not_authorized" xml:space="preserve">
+    <value>Usuário sem acesso ao recurso solicitado!</value>
+  </data>
+  <data name="msg_field_not_informed" xml:space="preserve">
+    <value>O campo {0} deve ser informado!</value>
+  </data>
+  <data name="msg_invalid_field" xml:space="preserve">
+    <value>O campo {0} deve ter entre {2} e {1} caracteres!</value>
+  </data>
+  <data name="msg_invalid_format_email" xml:space="preserve">
+    <value>O formato do e-mail está inválido!</value>
+  </data>
+  <data name="lbl_access_permission" xml:space="preserve">
+    <value>Permissão de acesso</value>
+  </data>
+  <data name="lbl_can_all" xml:space="preserve">
+    <value>Acesso total</value>
+  </data>
+  <data name="lbl_can_create" xml:space="preserve">
+    <value>Pode criar</value>
+  </data>
+  <data name="lbl_can_delete" xml:space="preserve">
+    <value>Pode apagar</value>
+  </data>
+  <data name="lbl_can_read" xml:space="preserve">
+    <value>Pode ler</value>
+  </data>
+  <data name="lbl_can_report" xml:space="preserve">
+    <value>Pode gerar relatório</value>
+  </data>
+  <data name="lbl_can_update" xml:space="preserve">
+    <value>Pode atualizar</value>
+  </data>
+  <data name="msg_id_must_be_provided" xml:space="preserve">
+    <value>O ID (identificador) deve ser fornecido</value>
+  </data>
+  <data name="msg_invalid_parameter" xml:space="preserve">
+    <value>A informação fornecida para realização da consulta é inválida!</value>
+  </data>
+  <data name="lbl_resources" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="lbl_resource_code" xml:space="preserve">
+    <value>Código do recurso</value>
+  </data>
+  <data name="lbl_resource_description" xml:space="preserve">
+    <value>Descrição do recurso</value>
+  </data>
+  <data name="lbl_resource_dictionary" xml:space="preserve">
+    <value>Nome no dicionário de tradução</value>
+  </data>
+  <data name="lbl_roles" xml:space="preserve">
+    <value>Funções/Papéis</value>
+  </data>
+  <data name="lbl_role_name" xml:space="preserve">
+    <value>Nome da função</value>
+  </data>
+  <data name="lbl_user_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lbl_user_external_id" xml:space="preserve">
+    <value>Identificação</value>
+  </data>
+  <data name="lbl_user_language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="lbl_user_nickname" xml:space="preserve">
+    <value>Apelido</value>
+  </data>
+  <data name="lbl_user_note" xml:space="preserve">
+    <value>Nota/Observação</value>
+  </data>
+  <data name="lbl_user_pwd" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="msg_id_diff_obj" xml:space="preserve">
+    <value>Não foi possível atualizar pois o ID fornecido não corresponde ao objeto passado!</value>
+  </data>
+  <data name="msg_record_delete" xml:space="preserve">
+    <value>Não foi possível apagar o registro!</value>
+  </data>
+  <data name="msg_record_insert" xml:space="preserve">
+    <value>Não foi possível inserir o registro!</value>
+  </data>
+  <data name="msg_record_update" xml:space="preserve">
+    <value>Não foi possível atualizar o registro!</value>
+  </data>
+  <data name="lbl_resource" xml:space="preserve">
+    <value>Recurso</value>
+  </data>
+  <data name="lbl_role" xml:space="preserve">
+    <value>Função/Papel</value>
+  </data>
+  <data name="lbl_change_pwd" xml:space="preserve">
+    <value>Alterar a senha</value>
+  </data>
+  <data name="lbl_confirm_new_pwd" xml:space="preserve">
+    <value>Confirme a nova senha</value>
+  </data>
+  <data name="lbl_email_address" xml:space="preserve">
+    <value>Endereço de e-mail</value>
+  </data>
+  <data name="lbl_enter" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="lbl_forgot_password" xml:space="preserve">
+    <value>Esqueceu a senha</value>
+  </data>
+  <data name="lbl_gen_security_key" xml:space="preserve">
+    <value>Gerar chave de segurança</value>
+  </data>
+  <data name="lbl_identification" xml:space="preserve">
+    <value>Id do usuário ou e-mail</value>
+  </data>
+  <data name="lbl_new_password" xml:space="preserve">
+    <value>Nova senha</value>
+  </data>
+  <data name="lbl_old_password" xml:space="preserve">
+    <value>Senha anterior</value>
+  </data>
+  <data name="lbl_remember_me" xml:space="preserve">
+    <value>Lembrar de mim</value>
+  </data>
+  <data name="lbl_security_key" xml:space="preserve">
+    <value>Chave de segurança</value>
+  </data>
+  <data name="lbl_theme_dark" xml:space="preserve">
+    <value>Tema escuro</value>
+  </data>
+  <data name="lbl_theme_light" xml:space="preserve">
+    <value>Tema claro</value>
+  </data>
+  <data name="lbl_to_confirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="msg_invalid_new_pwd" xml:space="preserve">
+    <value>A nova senha fornecida é inválida! Forneça uma senha que respeite as regras de senha e que seja diferente da senha antiga.</value>
+  </data>
+  <data name="msg_invalid_pwd_confirm" xml:space="preserve">
+    <value>A nova senha não confere com sua confirmação!</value>
+  </data>
+  <data name="msg_loggin_sucess" xml:space="preserve">
+    <value>O login foi realizado com sucesso!</value>
+  </data>
+  <data name="msg_pwd_changed" xml:space="preserve">
+    <value>A senha foi alterada com sucesso!</value>
+  </data>
+  <data name="msg_pwd_key_generated" xml:space="preserve">
+    <value>A chave foi gerada com sucesso e enviada para o e-mail cadastrado no sistema.</value>
+  </data>
+  <data name="msg_template_not_found" xml:space="preserve">
+    <value>Não foi possível gerar a mensagem, template {0} não encontrado!</value>
+  </data>
+  <data name="msg_server_unavailable" xml:space="preserve">
+    <value>Servidor indisponível. Aguarde alguns instantes e tente novamente!</value>
+  </data>
+  <data name="msg_invalid_user_pwd" xml:space="preserve">
+    <value>Identificação do usuário e/ou senha inválidos!</value>
+  </data>
+  <data name="msg_session_login_invalid" xml:space="preserve">
+    <value>A sessão não é mais válida. Faça login novamente na aplicação!</value>
+  </data>
+  <data name="lbl_users" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="lbl_item_add" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="lbl_item_del" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="lbl_item_edt" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="msg_one_record_to_delete" xml:space="preserve">
+    <value>Selecione um registro para apagar!</value>
+  </data>
+  <data name="msg_one_record_to_edit" xml:space="preserve">
+    <value>Selecione um registro para editar!</value>
+  </data>
+  <data name="msg_conf_delete_record" xml:space="preserve">
+    <value>Deseja realmente apagar o(s) registro(s) selecionado(s)?</value>
+  </data>
+  <data name="lbl_code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="lbl_description" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="lbl_dictionary" xml:space="preserve">
+    <value>Dicionário</value>
+  </data>
+  <data name="lbl_name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="msg_record_saved" xml:space="preserve">
+    <value>Registro atualizado com sucesso!</value>
+  </data>
+</root>

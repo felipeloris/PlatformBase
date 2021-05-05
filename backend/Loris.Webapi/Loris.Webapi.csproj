@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>b4d8d95f-ea52-4d40-85bf-fce30dca4083</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loris.Application\Loris.Application.csproj" />
+    <ProjectReference Include="..\Loris.Common.Webapi\Loris.Common.Webapi.csproj" />
+    <ProjectReference Include="..\Loris.CrossCutting\Loris.CrossCutting.csproj" />
+  </ItemGroup>
+
+
+</Project>
