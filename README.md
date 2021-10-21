@@ -1,5 +1,8 @@
-# PlatformBase
-Microserviço/domínio secundário de gestão de autenticação de usuários e permissão de recursos. Uma alternativa ao MS Identity. 
+# Single Sign On (PlatformBase)
+Microserviço de gestão de autenticação de usuários e permissão de recursos. Uma alternativa ao MS Identity. 
+
+Possui infraestrutura que pode ser utilizada para outros microserviços.
+Permite também que a autenticação possa ser utilizada por outros microserviços, desenvolvidos com outros tipos de tecnologia/linguagem.
 
 Para cada recurso pode ser definido a permissão em operações CRUD.
 Possui também recursos de internacionalização e tema.
